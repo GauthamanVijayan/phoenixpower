@@ -12,6 +12,10 @@
     {
       "src": "projects.html",
       "use": "@vercel/static"
+    },
+    {
+      "src": "public/**/*",
+      "use": "@vercel/static"
     }
   ]
 }

@@ -48,7 +48,7 @@ footer p{
 
 /* Header */
 .header {
-    background: linear-gradient(135deg, #FDD835, #FDB813); /* Solar energy inspired gradient */
+    background: linear-gradient(135deg, #443f28, #000000); /* Solar energy inspired gradient */
     color: #ffffff;
     padding: 80px 20px;
     text-align: center;

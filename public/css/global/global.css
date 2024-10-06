@@ -18,7 +18,7 @@ main {
 /* Footer with better text visibility */
 footer {
     background-color: #0B3D51;  /* Deep navy blue for professional look */
-    color: #FDD835;  /* Gold text for better contrast */
+    color: #0000;  /* Gold text for better contrast */
     padding: 15px 0;  /* Reduced padding for smaller height */
     text-align: center;
     margin-top: auto;

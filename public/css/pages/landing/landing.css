@@ -1,0 +1,55 @@
+/* Color Theme for Home Page */
+body {
+    background-color: #f9f9f9; /* Light background for a clean look */
+    color: #333333; /* Dark text for readability */
+}
+
+/* Updated Header with Reduced Height and Transparent Background */
+header {
+    background: linear-gradient(135deg, rgba(253, 184, 19, 0.8), rgba(255, 140, 0, 0.8)); /* Transparent gradient */
+    color: #ffffff; /* White text */
+    margin: 20px ; /* Reduce padding to lower the height */
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    border-radius: 20px 20px 20px 20px; /* Optional: Rounded bottom corners for a modern look */
+
+}
+
+h1 {
+    font-size: 2rem; /* Keep the heading prominent but reduce the size a bit */
+}
+
+p {
+    font-size: 1rem; /* Adjust the paragraph size for readability */
+}
+
+
+h2 {
+    color: #4CAF50; /* Green for sub-headings to represent nature */
+}
+
+
+/* Image placeholders */
+.image-placeholder {
+    background-color: #0277BD; /* Sky blue background for image placeholders */
+    width: 100%;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+/* Call-to-action buttons */
+.btn-primary {
+    background-color: #4CAF50;
+    border-color: #4CAF50;
+}
+
+.btn-primary:hover {
+    background-color: #388E3C;
+    border-color: #388E3C;
+}

@@ -1,0 +1,14 @@
+/* projects.css */
+#project-gallery {
+    margin-top: 100px;
+}
+
+#project-gallery img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+h1, p {
+    color: white;
+}

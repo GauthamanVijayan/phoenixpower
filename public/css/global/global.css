@@ -1,0 +1,161 @@
+/* Ensure the body and html take up full height */
+html, body {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* The main content should take up all available space */
+main {
+    flex: 1;
+}
+
+/* Footer should stay at the bottom */
+/* Footer should stay at the bottom */
+/* Footer with reduced height */
+/* Footer with better text visibility */
+footer {
+    background-color: #0B3D51;  /* Deep navy blue for professional look */
+    color: #FDD835;  /* Gold text for better contrast */
+    padding: 15px 0;  /* Reduced padding for smaller height */
+    text-align: center;
+    margin-top: auto;
+    width: 100%;
+    font-size: 1rem;  /* Slightly smaller font for compact design */
+    box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);  /* Subtle shadow */
+}
+
+footer a {
+    color: #FDD835;  /* Gold for the link */
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #FBC02D;  /* Lighter gold on hover */
+    text-decoration: underline;
+}
+
+footer p{
+    color: aliceblue;
+}
+
+/* Ensure there's no conflict with Bootstrap container */
+.container {
+    flex: 1;
+}
+
+/* Header */
+.header {
+    background: linear-gradient(135deg, #FDD835, #FDB813); /* Solar energy inspired gradient */
+    color: #ffffff;
+    padding: 80px 20px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+h2 {
+    color: #0a2940;  /* Dark Blue for headings */
+    font-weight: 600;
+}
+
+p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    color: #333333;
+}
+
+/* Navbar Styling */
+.navbar {
+    background-color: #0a2940;  /* Dark Blue for navbar */
+    padding: 15px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);  /* Subtle shadow */
+}
+
+.navbar-brand {
+    color: #FDB813;  /* Gold for branding */
+    font-weight: bold;
+}
+
+.navbar-toggler {
+    border-color: #FDB813;
+}
+
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23FDB813' viewBox='0 0 30 30'%3E%3Cpath stroke='rgba%280, 0, 0, 0.5%29' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+.navbar-nav {
+    margin-left: auto;
+}
+
+.navbar-nav .nav-item {
+    margin-left: 20px;
+}
+
+.navbar-nav .nav-link {
+    color: #ffffff !important;  /* White text */
+    font-weight: 500;
+    transition: color 0.3s ease-in-out, transform 0.3s ease;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #FDB813 !important;  /* Gold hover effect */
+    transform: translateY(-2px);
+}
+
+.navbar-nav .nav-link.active {
+    color: #FDD835 !important;  /* Bright Gold for active link */
+}
+
+/* Buttons with Rounded Corners and Shadow */
+.btn-primary {
+    background-color: #FDB813;  /* Gold button */
+    border-color: #FDB813;
+    border-radius: 25px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.btn-primary:hover {
+    background-color: #FDD835;  /* Lighter gold hover */
+    transform: translateY(-3px);
+}
+
+/* Image Placeholder with Overlay */
+.image-placeholder {
+    background-color: #0a2940;  /* Dark Blue background */
+    width: 100%;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+}
+
+.image-placeholder::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.3);
+    z-index: 1;
+}
+
+.image-placeholder span {
+    position: relative;
+    z-index: 2;
+}

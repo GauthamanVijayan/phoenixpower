@@ -20,6 +20,11 @@
     
      ],
 
-     "outputDirectory":"static"
+     "outputDirectory":"static",
+     
+     "rewrites": [
+        {"source": "/(.*)", "destination":"/"}
+      ]
+     
 
 }
